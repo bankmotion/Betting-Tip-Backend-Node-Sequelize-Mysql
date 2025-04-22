@@ -1,0 +1,2302 @@
+[
+  {
+    "fixture": {
+      "id": 9531,
+      "referee": "Alejandro Hernandez, Spain",
+      "timezone": "UTC",
+      "date": "2018-05-06T18:45:00+00:00",
+      "timestamp": 1525632300,
+      "periods": { "first": 1525632300, "second": 1525635900 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2017,
+      "round": "Regular Season - 36",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": 2, "away": 2 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 20692,
+      "referee": "Carlos Clos Gomez, Spain",
+      "timezone": "UTC",
+      "date": "2016-12-03T15:15:00+00:00",
+      "timestamp": 1480778100,
+      "periods": { "first": 1480778100, "second": 1480781700 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2016,
+      "round": "Regular Season - 14",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": 1, "away": 1 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 1, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 27232,
+      "referee": "Jose Maria Sanchez Martinez, Spain",
+      "timezone": "UTC",
+      "date": "2018-10-28T15:15:00+00:00",
+      "timestamp": 1540739700,
+      "periods": { "first": 1540739700, "second": 1540743300 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2018,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 5, "away": 1 },
+    "score": {
+      "halftime": { "home": 2, "away": 0 },
+      "fulltime": { "home": 5, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 203640,
+      "referee": "Alejandro Hernandez, Spain",
+      "timezone": "UTC",
+      "date": "2016-04-02T18:30:00+00:00",
+      "timestamp": 1459621800,
+      "periods": { "first": 1459621800, "second": 1459625400 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2015,
+      "round": "Regular Season - 31",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 2 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 1, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 203996,
+      "referee": "Antonio Mateu, Spain",
+      "timezone": "UTC",
+      "date": "2015-03-22T20:00:00+00:00",
+      "timestamp": 1427054400,
+      "periods": { "first": 1427054400, "second": 1427058000 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2014,
+      "round": "Regular Season - 28",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 1 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 204189,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2013-10-26T16:00:00+00:00",
+      "timestamp": 1382803200,
+      "periods": { "first": 1382803200, "second": 1382806800 },
+      "venue": { "id": null, "name": "Camp Nou (Barcelona)", "city": null },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2013,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 1 },
+    "score": {
+      "halftime": { "home": 1, "away": 0 },
+      "fulltime": { "home": 2, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 204545,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2012-10-07T17:50:00+00:00",
+      "timestamp": 1349632200,
+      "periods": { "first": 1349632200, "second": 1349635800 },
+      "venue": { "id": null, "name": "Camp Nou (Barcelona)", "city": null },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2012,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": 2, "away": 2 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 205199,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2012-04-21T18:00:00+00:00",
+      "timestamp": 1335031200,
+      "periods": { "first": 1335031200, "second": 1335034800 },
+      "venue": { "id": null, "name": "Camp Nou (Barcelona)", "city": null },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2011,
+      "round": "Regular Season - 35",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 2 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 1, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 205353,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2010-11-29T20:00:00+00:00",
+      "timestamp": 1291060800,
+      "periods": { "first": 1291060800, "second": 1291064400 },
+      "venue": { "id": null, "name": "Camp Nou (Barcelona)", "city": null },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2010,
+      "round": "Regular Season - 13",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 5, "away": 0 },
+    "score": {
+      "halftime": { "home": 2, "away": 0 },
+      "fulltime": { "home": 5, "away": 0 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 214113,
+      "referee": "Alejandro Hernández",
+      "timezone": "UTC",
+      "date": "2019-12-18T19:00:00+00:00",
+      "timestamp": 1576695600,
+      "periods": { "first": 1576695600, "second": 1576699200 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2019,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": 0, "away": 0 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 0, "away": 0 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 219162,
+      "referee": "Antonio Mateu, Spain",
+      "timezone": "UTC",
+      "date": "2019-02-06T20:00:00+00:00",
+      "timestamp": 1549483200,
+      "periods": { "first": 1549483200, "second": 1549486800 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2018,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": 1, "away": 1 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 1, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 367225,
+      "referee": "Ricardo De Burgos Bengoetxea, Spain",
+      "timezone": "UTC",
+      "date": "2017-08-13T20:00:00+00:00",
+      "timestamp": 1502654400,
+      "periods": { "first": 1502654400, "second": 1502658000 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 556,
+      "name": "Super Cup",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/556.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2017,
+      "round": "Finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 3 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 1, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 605126,
+      "referee": "Juan Martínez",
+      "timezone": "UTC",
+      "date": "2020-10-24T14:00:00+00:00",
+      "timestamp": 1603548000,
+      "periods": { "first": 1603548000, "second": 1603551600 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2020,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 3 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 1, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 720831,
+      "referee": "José Sánchez",
+      "timezone": "UTC",
+      "date": "2021-10-24T14:15:00+00:00",
+      "timestamp": 1635084900,
+      "periods": { "first": 1635084900, "second": 1635088500 },
+      "venue": { "id": 1462, "name": "Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2021,
+      "round": "Regular Season - 10",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 2 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 1, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 721119,
+      "referee": "Jose Luis Munuera Montero, Spain",
+      "timezone": "UTC",
+      "date": "2022-01-12T19:00:00+00:00",
+      "timestamp": 1642014000,
+      "periods": { "first": 1642014000, "second": 1642017600 },
+      "venue": { "id": null, "name": "King Fahd Stadium", "city": "Riyadh" },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 556,
+      "name": "Super Cup",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/556.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2021,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 2, "away": 3 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 2 },
+      "extratime": { "home": 0, "away": 1 },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 878193,
+      "referee": "Ricardo De Burgos",
+      "timezone": "UTC",
+      "date": "2023-03-19T20:00:00+00:00",
+      "timestamp": 1679256000,
+      "periods": { "first": 1679256000, "second": 1679259600 },
+      "venue": { "id": 18630, "name": "Spotify Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2022,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 1 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 997739,
+      "referee": "Juan Martínez",
+      "timezone": "UTC",
+      "date": "2023-04-05T19:00:00+00:00",
+      "timestamp": 1680721200,
+      "periods": { "first": 1680721200, "second": 1680724800 },
+      "venue": { "id": 18630, "name": "Spotify Camp Nou", "city": "Barcelona" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2022,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 4 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 0, "away": 4 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1038054,
+      "referee": "Jesus Gil Manzano, Spain",
+      "timezone": "UTC",
+      "date": "2023-10-28T14:15:00+00:00",
+      "timestamp": 1698502500,
+      "periods": { "first": 1698502500, "second": 1698506100 },
+      "venue": {
+        "id": 19939,
+        "name": "Estadi Olímpic Lluís Companys",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2023,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 2 },
+    "score": {
+      "halftime": { "home": 1, "away": 0 },
+      "fulltime": { "home": 1, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1117081,
+      "referee": "A. Chapman",
+      "timezone": "UTC",
+      "date": "2023-07-29T21:00:00+00:00",
+      "timestamp": 1690664400,
+      "periods": { "first": 1690664400, "second": 1690668000 },
+      "venue": {
+        "id": null,
+        "name": "AT&T Stadium",
+        "city": "Arlington, Texas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2023,
+      "round": "Club Friendlies 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 3, "away": 0 },
+    "score": {
+      "halftime": { "home": 1, "away": 0 },
+      "fulltime": { "home": 3, "away": 0 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1208801,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-05-11T14:15:00+00:00",
+      "timestamp": 1746972900,
+      "periods": { "first": null, "second": null },
+      "venue": {
+        "id": 19939,
+        "name": "Estadi Olímpic Lluís Companys",
+        "city": "Barcelona"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2024,
+      "round": "Regular Season - 35",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": null, "away": null },
+    "score": {
+      "halftime": { "home": null, "away": null },
+      "fulltime": { "home": null, "away": null },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1277934,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2024-08-03T23:00:00+00:00",
+      "timestamp": 1722726000,
+      "periods": { "first": 1722726000, "second": 1722729600 },
+      "venue": {
+        "id": null,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2024,
+      "round": "Club Friendlies 5",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 1 },
+    "score": {
+      "halftime": { "home": 1, "away": 0 },
+      "fulltime": { "home": 2, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1367758,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-04-26T20:00:00+00:00",
+      "timestamp": 1745697600,
+      "periods": { "first": null, "second": null },
+      "venue": {
+        "id": null,
+        "name": "Estadio Olímpico de Sevilla",
+        "city": "Sevilla"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2024,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      },
+      "away": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": null, "away": null },
+    "score": {
+      "halftime": { "home": null, "away": null },
+      "fulltime": { "home": null, "away": null },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 9721,
+      "referee": "Jose Maria Sanchez Martinez, Spain",
+      "timezone": "UTC",
+      "date": "2017-12-23T12:00:00+00:00",
+      "timestamp": 1514030400,
+      "periods": { "first": 1514030400, "second": 1514034000 },
+      "venue": { "id": null, "name": "Santiago Bernabéu", "city": "Madrid" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2017,
+      "round": "Regular Season - 17",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 3 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 0, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 20496,
+      "referee": "Alejandro Hernandez, Spain",
+      "timezone": "UTC",
+      "date": "2017-04-23T18:45:00+00:00",
+      "timestamp": 1492973100,
+      "periods": { "first": 1492973100, "second": 1492976700 },
+      "venue": { "id": null, "name": "Santiago Bernabéu", "city": "Madrid" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2016,
+      "round": "Regular Season - 33",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 2, "away": 3 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 27395,
+      "referee": "Alberto Undiano, Spain",
+      "timezone": "UTC",
+      "date": "2019-03-02T19:45:00+00:00",
+      "timestamp": 1551555900,
+      "periods": { "first": 1551555900, "second": 1551559500 },
+      "venue": { "id": null, "name": "Santiago Bernabéu", "city": "Madrid" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2018,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 1 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 0, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 203448,
+      "referee": "David Fernandez Borbalan, Spain",
+      "timezone": "UTC",
+      "date": "2015-11-21T17:15:00+00:00",
+      "timestamp": 1448126100,
+      "periods": { "first": 1448126100, "second": 1448129700 },
+      "venue": { "id": null, "name": "Santiago Bernabéu", "city": "Madrid" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2015,
+      "round": "Regular Season - 12",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 4 },
+    "score": {
+      "halftime": { "home": 0, "away": 2 },
+      "fulltime": { "home": 0, "away": 4 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 203799,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2014-10-25T16:00:00+00:00",
+      "timestamp": 1414252800,
+      "periods": { "first": 1414252800, "second": 1414256400 },
+      "venue": {
+        "id": null,
+        "name": "Estadio Santiago Bernabéu (Madrid)",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2014,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 3, "away": 1 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 3, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 204385,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2014-03-23T20:00:00+00:00",
+      "timestamp": 1395604800,
+      "periods": { "first": 1395604800, "second": 1395608400 },
+      "venue": {
+        "id": null,
+        "name": "Estadio Santiago Bernabéu (Madrid)",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2013,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 3, "away": 4 },
+    "score": {
+      "halftime": { "home": 2, "away": 2 },
+      "fulltime": { "home": 3, "away": 4 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 204728,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2013-03-02T15:00:00+00:00",
+      "timestamp": 1362236400,
+      "periods": { "first": 1362236400, "second": 1362240000 },
+      "venue": {
+        "id": null,
+        "name": "Estadio Santiago Bernabéu (Madrid)",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2012,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 1 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 2, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 205009,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2011-12-10T21:00:00+00:00",
+      "timestamp": 1323550800,
+      "periods": { "first": 1323550800, "second": 1323554400 },
+      "venue": {
+        "id": null,
+        "name": "Estadio Santiago Bernabéu (Madrid)",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2011,
+      "round": "Regular Season - 16",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 3 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 1, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 205519,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2011-04-16T20:00:00+00:00",
+      "timestamp": 1302984000,
+      "periods": { "first": 1302984000, "second": 1302987600 },
+      "venue": {
+        "id": null,
+        "name": "Estadio Santiago Bernabéu (Madrid)",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2010,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": null
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": null
+      }
+    },
+    "goals": { "home": 1, "away": 1 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 1, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 214278,
+      "referee": "Antonio Mateu",
+      "timezone": "UTC",
+      "date": "2020-03-01T20:00:00+00:00",
+      "timestamp": 1583092800,
+      "periods": { "first": 1583092800, "second": 1583096400 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2019,
+      "round": "Regular Season - 26",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 0 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 2, "away": 0 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 219163,
+      "referee": "Jose Maria Sanchez Martinez, Spain",
+      "timezone": "UTC",
+      "date": "2019-02-27T20:00:00+00:00",
+      "timestamp": 1551297600,
+      "periods": { "first": 1551297600, "second": 1551301200 },
+      "venue": { "id": null, "name": "Santiago Bernabéu", "city": "Madrid" },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2018,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 3 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 0, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 255681,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2017-07-30T00:05:00+00:00",
+      "timestamp": 1501373100,
+      "periods": { "first": 1501373100, "second": 1501376700 },
+      "venue": {
+        "id": null,
+        "name": "Hard Rock Stadium (Miami Gardens, Florida)",
+        "city": null
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 26,
+      "name": "International Champions Cup",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/26.png",
+      "flag": null,
+      "season": 2017,
+      "round": "North America - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 2, "away": 3 },
+    "score": {
+      "halftime": { "home": 2, "away": 2 },
+      "fulltime": { "home": 2, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 367226,
+      "referee": "Jose Maria Sanchez Martinez, Spain",
+      "timezone": "UTC",
+      "date": "2017-08-16T21:00:00+00:00",
+      "timestamp": 1502917200,
+      "periods": { "first": 1502917200, "second": 1502920800 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 556,
+      "name": "Super Cup",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/556.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2017,
+      "round": "Finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 0 },
+    "score": {
+      "halftime": { "home": 2, "away": 0 },
+      "fulltime": { "home": 2, "away": 0 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 605361,
+      "referee": "Jesús Gil",
+      "timezone": "UTC",
+      "date": "2021-04-10T19:00:00+00:00",
+      "timestamp": 1618081200,
+      "periods": { "first": 1618081200, "second": 1618084800 },
+      "venue": {
+        "id": 6669,
+        "name": "Estadio Alfredo Di Stéfano",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2020,
+      "round": "Regular Season - 30",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 2, "away": 1 },
+    "score": {
+      "halftime": { "home": 2, "away": 0 },
+      "fulltime": { "home": 2, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 721025,
+      "referee": "Juan Martínez",
+      "timezone": "UTC",
+      "date": "2022-03-20T20:00:00+00:00",
+      "timestamp": 1647806400,
+      "periods": { "first": 1647806400, "second": 1647810000 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2021,
+      "round": "Regular Season - 29",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 4 },
+    "score": {
+      "halftime": { "home": 0, "away": 2 },
+      "fulltime": { "home": 0, "away": 4 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 869540,
+      "referee": "M. Allatin",
+      "timezone": "UTC",
+      "date": "2022-07-24T03:00:00+00:00",
+      "timestamp": 1658631600,
+      "periods": { "first": 1658631600, "second": 1658635200 },
+      "venue": {
+        "id": null,
+        "name": "Allegiant Stadium",
+        "city": "Las Vegas, Nevada"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2022,
+      "round": "Club Friendlies 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 1 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 0, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 878026,
+      "referee": "José Sánchez",
+      "timezone": "UTC",
+      "date": "2022-10-16T14:15:00+00:00",
+      "timestamp": 1665929700,
+      "periods": { "first": 1665929700, "second": 1665933300 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2022,
+      "round": "Regular Season - 9",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 3, "away": 1 },
+    "score": {
+      "halftime": { "home": 2, "away": 0 },
+      "fulltime": { "home": 3, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 987660,
+      "referee": "Ricardo De Burgos",
+      "timezone": "UTC",
+      "date": "2023-01-15T19:00:00+00:00",
+      "timestamp": 1673809200,
+      "periods": { "first": 1673809200, "second": 1673812800 },
+      "venue": {
+        "id": null,
+        "name": "King Fahd International Stadium",
+        "city": "Riyadh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 556,
+      "name": "Super Cup",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/556.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2022,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 1, "away": 3 },
+    "score": {
+      "halftime": { "home": 0, "away": 2 },
+      "fulltime": { "home": 1, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 997738,
+      "referee": "José Munuera",
+      "timezone": "UTC",
+      "date": "2023-03-02T20:00:00+00:00",
+      "timestamp": 1677787200,
+      "periods": { "first": 1677787200, "second": 1677790800 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 143,
+      "name": "Copa del Rey",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/143.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2022,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 1 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 0, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1038267,
+      "referee": "Cesar Soto Grado, Spain",
+      "timezone": "UTC",
+      "date": "2024-04-21T19:00:00+00:00",
+      "timestamp": 1713726000,
+      "periods": { "first": 1713726000, "second": 1713729600 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2023,
+      "round": "Regular Season - 32",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 3, "away": 2 },
+    "score": {
+      "halftime": { "home": 1, "away": 1 },
+      "fulltime": { "home": 3, "away": 2 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1097382,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2023-07-29T21:00:00+00:00",
+      "timestamp": 1690664400,
+      "periods": { "first": 1690664400, "second": 1690668000 },
+      "venue": { "id": null, "name": null, "city": null },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 667,
+      "name": "Friendlies Clubs",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/667.png",
+      "flag": null,
+      "season": 2023,
+      "round": "Club Friendlies 5",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 3 },
+    "score": {
+      "halftime": { "home": 0, "away": 1 },
+      "fulltime": { "home": 0, "away": 3 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1159314,
+      "referee": "Juan Martínez",
+      "timezone": "UTC",
+      "date": "2024-01-14T19:00:00+00:00",
+      "timestamp": 1705258800,
+      "periods": { "first": 1705258800, "second": 1705262400 },
+      "venue": {
+        "id": null,
+        "name": "Al Awal Park at King Saud University",
+        "city": "Riyadh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 556,
+      "name": "Super Cup",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/556.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2023,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": true
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": false
+      }
+    },
+    "goals": { "home": 4, "away": 1 },
+    "score": {
+      "halftime": { "home": 3, "away": 1 },
+      "fulltime": { "home": 4, "away": 1 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1208587,
+      "referee": "José María Sánchez Martínez, Spain",
+      "timezone": "UTC",
+      "date": "2024-10-26T19:00:00+00:00",
+      "timestamp": 1729969200,
+      "periods": { "first": 1729969200, "second": 1729972800 },
+      "venue": {
+        "id": 1456,
+        "name": "Estadio Santiago Bernabéu",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 140,
+      "name": "La Liga",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/140.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2024,
+      "round": "Regular Season - 11",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 0, "away": 4 },
+    "score": {
+      "halftime": { "home": 0, "away": 0 },
+      "fulltime": { "home": 0, "away": 4 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334517,
+      "referee": "Gil Manzano",
+      "timezone": "UTC",
+      "date": "2025-01-12T19:00:00+00:00",
+      "timestamp": 1736708400,
+      "periods": { "first": 1736708400, "second": 1736712000 },
+      "venue": {
+        "id": 1364,
+        "name": "King Abdullah Sports City",
+        "city": "Jeddah"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 556,
+      "name": "Super Cup",
+      "country": "Spain",
+      "logo": "https://media.api-sports.io/football/leagues/556.png",
+      "flag": "https://media.api-sports.io/flags/es.svg",
+      "season": 2024,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 541,
+        "name": "Real Madrid",
+        "logo": "https://media.api-sports.io/football/teams/541.png",
+        "winner": false
+      },
+      "away": {
+        "id": 529,
+        "name": "Barcelona",
+        "logo": "https://media.api-sports.io/football/teams/529.png",
+        "winner": true
+      }
+    },
+    "goals": { "home": 2, "away": 5 },
+    "score": {
+      "halftime": { "home": 1, "away": 4 },
+      "fulltime": { "home": 2, "away": 5 },
+      "extratime": { "home": null, "away": null },
+      "penalty": { "home": null, "away": null }
+    }
+  }
+]
