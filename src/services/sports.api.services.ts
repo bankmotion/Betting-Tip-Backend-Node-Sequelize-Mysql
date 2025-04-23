@@ -18,17 +18,15 @@ export const getSportsAPIData = async (url: string) => {
   };
 
   const response = await axios(options);
-  // console.log(response.data);
-  if (
-    response.data.errors?.requests?.includes(
-      "You have reached the request limit for the day"
-    )
-  ) {
-    throw "You have reached the request limit for the day";
-  } else if (
-    response.data.errors?.token?.includes("Missing application key.")
-  ) {
-    throw "Missing application key.";
+  console.log(response.data);
+  if (response.data.errors?.requests) {
+    throw response.data.errors?.requests;
+  } else if (response.data.errors?.token) {
+    throw response.data.errors?.token;
+  } else if (response.data.errors?.access) {
+    throw response.data.errors?.access;
+  } else if (response.data.errors?.rateLimit) {
+    throw response.data.errors?.rateLimit;
   }
 
   return response.data;

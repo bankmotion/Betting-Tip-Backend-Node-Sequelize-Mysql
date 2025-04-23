@@ -4,6 +4,8 @@ import { Country } from "./models/Country";
 import { League } from "./models/League";
 import { Team } from "./models/Team";
 import { Match } from "./models/Match";
+import { User } from "./models/User";
+import { Odd } from "./models/Odd";
 config();
 
 const sequelize = new Sequelize({
@@ -13,7 +15,7 @@ const sequelize = new Sequelize({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
   logging: false,
-  models: [Country, League, Team, Match],
+  models: [Country, League, Team, Match, User],
 });
 
 export default sequelize;

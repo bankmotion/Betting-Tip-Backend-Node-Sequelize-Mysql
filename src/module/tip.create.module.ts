@@ -14,7 +14,7 @@ import {
   getCountriesData,
   getLeaguesData,
   getMappingList,
-  getPredicitonsByFixture
+  getPredicitonsByFixture,
 } from "../services/sports.api.services";
 import {
   createTeamDataService,
@@ -113,15 +113,15 @@ const createNewMatch = async () => {
           // });
           // console.log(JSON.stringify(oddsData));
 
-          const prediciton = await getPredicitonsByFixture({
-            fixture: mapItem.fixture.id,
-          });
-
           let matchData = await getMatchDataService({
             fixtureId: mapItem.fixture.id,
           });
 
           if (!matchData) {
+            const prediciton = await getPredicitonsByFixture({
+              fixture: mapItem.fixture.id,
+            });
+
             const homeTeamId = prediciton.teams.home.id;
             const awayTeamId = prediciton.teams.away.id;
             let homeTeamData = await getTeamDataService({ teamId: homeTeamId });
@@ -158,7 +158,7 @@ const createNewMatch = async () => {
           }
         }
       }
-      break;
+      // break;
     }
 
     console.log(`All matches created`);
