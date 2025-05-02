@@ -30,6 +30,9 @@ export class League extends Model {
   @Column({ type: DataType.STRING, allowNull: false })
   logo!: string;
 
+  @Column({ type: DataType.BOOLEAN, allowNull: false, defaultValue: false })
+  isActive!: boolean;
+
   // define foreign key relationship with the country model
   @ForeignKey(() => Country)
   @Column({ type: DataType.INTEGER, allowNull: false })

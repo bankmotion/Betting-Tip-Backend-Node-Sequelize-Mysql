@@ -1,3 +1,4 @@
+import { BetType } from "../const/bet.const";
 import {
   createCountryData,
   getCountryData,
@@ -9,11 +10,19 @@ import {
 import {
   createMatchDataService,
   getMatchDataService,
+  updateMatchDataService,
 } from "../services/match.services";
+import {
+  createOddsDataService,
+  getOddsByFixtureService,
+  updateOddsDataService,
+} from "../services/odd.services";
+import { getSettings } from "../services/setting.service";
 import {
   getCountriesData,
   getLeaguesData,
   getMappingList,
+  getOddsByFixture,
   getPredicitonsByFixture,
 } from "../services/sports.api.services";
 import {
@@ -26,17 +35,19 @@ import {
   SeasonType,
 } from "../types/ThiridPartAPIType";
 import { delay } from "../utils/utils";
+import { getFactorsFromOdds, isValidTip } from "./tip.filter.module";
 
-const createNewMatch = async () => {
+export const createNewMatch = async () => {
   try {
     let currentPage = 1;
     let hasMore = true;
 
+    const settings = await getSettings();
+
     while (hasMore) {
-      await delay(1);
+      // await delay(1);
       // get list for upcoming matches
       const mapData = await getMappingList(currentPage);
-      console.log(`mapData.length`, mapData.length);
       if (mapData.paging.current === mapData.paging.total) {
         hasMore = false;
       }
@@ -52,7 +63,7 @@ const createNewMatch = async () => {
       console.log(`mapList.length`, mapList.length);
 
       for (const mapItem of mapList) {
-        console.log(`fixtureId`, mapItem.fixture.id);
+        // console.log(`fixtureId`, mapItem.fixture.id);
         // get league data from db
         let league = await getLeagueService({
           leagueId: mapItem.league.id,
@@ -60,7 +71,7 @@ const createNewMatch = async () => {
         });
 
         if (!league) {
-          await delay(1);
+          // await delay(1);
           // get league data from third party api
           const newLeagueData = await getLeaguesData({
             league: mapItem.league.id,
@@ -106,13 +117,7 @@ const createNewMatch = async () => {
           }
         }
 
-        if (league) {
-          // create match data
-          // const oddsData = await getOddsByFixture({
-          //   fixture: mapItem.fixture.id,
-          // });
-          // console.log(JSON.stringify(oddsData));
-
+        if (league?.isActive) {
           let matchData = await getMatchDataService({
             fixtureId: mapItem.fixture.id,
           });
@@ -143,18 +148,106 @@ const createNewMatch = async () => {
               });
             }
 
-            console.log(
-              mapItem.fixture.id,
-              league.id,
-              homeTeamData.id,
-              awayTeamData.id
-            );
             matchData = await createMatchDataService({
               fixtureId: mapItem.fixture.id,
               leagueId: league.id,
               homeTeamId: homeTeamData.id,
               awayTeamId: awayTeamData.id,
+              matchTimestamp: mapItem.fixture.timestamp,
+              dataUpdateTimestamp:
+                new Date(mapItem.update).getTime() / 1000 || 0,
             });
+          } else {
+            if (
+              matchData.dataUpdateTimestamp <
+              new Date(mapItem.update).getTime() / 1000
+            ) {
+              matchData.dataUpdateTimestamp =
+                new Date(mapItem.update).getTime() / 1000;
+
+              matchData = await updateMatchDataService({
+                id: matchData.id,
+                dataUpdateTimestamp: new Date(mapItem.update).getTime() / 1000,
+              });
+              console.log(`matchData updated`, matchData?.id);
+            }
+          }
+
+          if (matchData) {
+            const oddsData = await getOddsByFixture({
+              fixture: mapItem.fixture.id,
+            });
+
+            for (const bet of BetType) {
+              for (const sub of bet.subTypes) {
+                const oddData = oddsData?.bookmakers.flatMap((book) =>
+                  book.bets
+                    .filter((betItem) => betItem.id === sub.keyId)
+                    .flatMap((betItem) =>
+                      betItem.values
+                        .filter((value) => value.value === sub.key)
+                        .map((value) => parseFloat(value.odd))
+                    )
+                );
+
+                const odd = await getOddsByFixtureService({
+                  fixtureId: mapItem.fixture.id,
+                  betType: bet.id,
+                  betSubType: sub.subId,
+                });
+
+                const {
+                  probability,
+                  roi,
+                  odd: highOdd,
+                  ev,
+                } = getFactorsFromOdds({
+                  oddsArr: oddData,
+                  betType: bet.id,
+                  betSubType: sub.subId,
+                  enableHighOddAdjust: false,
+                  highOddSthreshold: 0,
+                  extraProbBoost: 0,
+                });
+
+                const isValid = isValidTip(
+                  highOdd,
+                  probability,
+                  roi,
+                  ev,
+                  settings,
+                  bet.id
+                );
+
+                if (!odd) {
+                  await createOddsDataService({
+                    fixtureId: mapItem.fixture.id,
+                    matchId: matchData.id,
+                    betType: bet.id,
+                    betSubType: sub.subId,
+                    dataUpdateTimestamp:
+                      new Date(oddsData.update).getTime() / 1000,
+                    odds: oddData,
+                    probability,
+                    roi,
+                    ev,
+                    tipValid: isValid,
+                  });
+                } else {
+                  await updateOddsDataService({
+                    id: odd.id,
+                    odds: oddData,
+                    dataUpdateTimestamp:
+                      new Date(oddsData.update).getTime() / 1000,
+                    probability,
+                    roi,
+                    ev,
+                    tipValid: isValid,
+                  });
+                  // console.log(`odd data updated`, odd?.id);
+                }
+              }
+            }
           }
         }
       }

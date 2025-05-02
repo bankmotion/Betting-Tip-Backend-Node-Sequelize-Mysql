@@ -4,6 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 
 import { eventBettingTip } from "./module/tip.create.module";
+import { filterTips } from "./module/tip.filter.module";
 import routes from "./routes";
 const app = express();
 
@@ -17,7 +18,6 @@ app.use(express.urlencoded({ extended: true }));
 // Routes
 app.use("/", routes);
 
-eventBettingTip();
-// getBets()
+// filterTips();
 
 export default app;

@@ -101,6 +101,7 @@ export interface PredictionType {
 export interface HomeAwayType {
   home: string;
   away: string;
+  total: string;
 }
 
 export interface TimePercentType {
@@ -111,6 +112,17 @@ export interface TimePercentType {
 export interface OverUnderType {
   over: number;
   under: number;
+}
+
+export interface OverUnderServeralType {
+  over1_5: number;
+  under1_5: number;
+  over2_5: number;
+  under2_5: number;
+  over3_5: number;
+  under3_5: number;
+  over4_5: number;
+  under4_5: number;
 }
 
 export interface FixtureSmallType {
@@ -253,4 +265,163 @@ export interface PredictionTeamType {
       };
     };
   };
+}
+
+export interface TeamStatisticType {
+  team: {
+    id: number;
+    name: string;
+    logo: string;
+  };
+  league: {
+    id: number;
+    name: string;
+    country: string;
+    logo: string;
+    flag: string;
+    season: number;
+  };
+  form: string;
+  fixtures: {
+    played: FixtureSmallType;
+    wins: FixtureSmallType;
+    draws: FixtureSmallType;
+    loses: FixtureSmallType;
+  };
+  goals: {
+    for: {
+      total: HomeAwayType;
+      average: HomeAwayType;
+      minute: {
+        "0-15": TimePercentType;
+        "16-30": TimePercentType;
+        "31-45": TimePercentType;
+        "46-60": TimePercentType;
+        "61-75": TimePercentType;
+        "76-90": TimePercentType;
+        "91-105": TimePercentType;
+        "106-120": TimePercentType;
+      };
+      under_over: {
+        "0.5": OverUnderType;
+        "1.5": OverUnderType;
+        "2.5": OverUnderType;
+        "3.5": OverUnderType;
+        "4.5": OverUnderType;
+      };
+    };
+    against: {
+      total: HomeAwayType;
+      average: HomeAwayType;
+      minute: {
+        "0-15": TimePercentType;
+        "16-30": TimePercentType;
+        "31-45": TimePercentType;
+        "46-60": TimePercentType;
+        "61-75": TimePercentType;
+        "76-90": TimePercentType;
+        "91-105": TimePercentType;
+        "106-120": TimePercentType;
+      };
+      under_over: {
+        "0.5": OverUnderType;
+        "1.5": OverUnderType;
+        "2.5": OverUnderType;
+        "3.5": OverUnderType;
+        "4.5": OverUnderType;
+      };
+    };
+  };
+  biggest: {
+    streak: {
+      wins: number;
+      draws: number;
+      loses: number;
+    };
+    wins: {
+      home: string;
+      away: string;
+    };
+    loses: {
+      home: string;
+      away: string;
+    };
+    goals: {
+      for: HomeAwayType;
+      against: HomeAwayType;
+    };
+  };
+  clean_sheet: {
+    home: number;
+    away: number;
+    total: number;
+  };
+  failed_to_score: {
+    home: number;
+    away: number;
+    total: number;
+  };
+  penalty: {
+    scored: TimePercentType;
+    missed: TimePercentType;
+    total: number;
+  };
+  lineups: {
+    formation: string;
+    played: number;
+  }[];
+  cards: {
+    yellow: {
+      "0-15": TimePercentType;
+      "16-30": TimePercentType;
+      "31-45": TimePercentType;
+      "46-60": TimePercentType;
+      "61-75": TimePercentType;
+      "76-90": TimePercentType;
+      "91-105": TimePercentType;
+      "106-120": TimePercentType;
+    };
+  };
+  red: {
+    "0-15": TimePercentType;
+    "16-30": TimePercentType;
+    "31-45": TimePercentType;
+    "46-60": TimePercentType;
+    "61-75": TimePercentType;
+    "76-90": TimePercentType;
+    "91-105": TimePercentType;
+    "106-120": TimePercentType;
+  };
+}
+
+export interface APIOddsType {
+  league: {
+    id: number;
+    name: string;
+    country: string;
+    logo: string;
+    flag: string;
+    season: number;
+  };
+  fixture: {
+    id: number;
+    timezone: string;
+    date: string;
+    timestamp: number;
+  };
+  update: string;
+  bookmakers: APIOddsByBookmakerType[];
+}
+
+export interface APIOddsByBookmakerType {
+  id: number;
+  name: string;
+  bets: {
+    id: number;
+    name: string;
+    values: {
+      value: string;
+      odd: string;
+    }[];
+  }[];
 }
